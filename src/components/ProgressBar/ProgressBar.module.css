@@ -1,0 +1,43 @@
+/* .inner_container {
+  background-color: green;
+  color: white;
+  width: 100%;
+  text-align: right;
+  transform: translateX(-100%);
+  transition: transform 0.5s ease-in;
+}
+
+.outer_container {
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 8px;
+  overflow: hidden;
+} */
+
+.outer_container {
+  position: relative;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 24px;
+}
+
+.inner_container {
+  height: 100%;
+  width: 100%;
+  background-color: green;
+  transform: translateX(-100%);
+  transition: transform 0.5s ease-in;
+}
+
+.progress_text {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  pointer-events: none;
+  color: black;
+}
