@@ -1,0 +1,17 @@
+.file_folder_container {
+  padding-left: 20px;
+}
+
+.file_folder {
+  padding-left: 5px;
+}
+
+.icon {
+  cursor: pointer;
+  margin-left: 2px;
+}
+
+.util_icons {
+    composes: icon;
+    margin-left: 4px;
+}
