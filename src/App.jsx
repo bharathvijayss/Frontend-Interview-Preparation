@@ -1,6 +1,7 @@
 import Otp from "/src/components/Otp/Otp";
 import ProgressBar from "/src/components/ProgressBar/ProgressBar";
 import FileFolderStructure from "/src/components/FileFolderStructure/FileFolderStructure";
+import SearchBar from "/src/components/SearchBar/SearchBar";
 import { main_container } from "./App.module.css";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <ProgressBar progress={progress} key={progress} />
       ))}
       <FileFolderStructure />
+      <SearchBar />
     </div>
   );
 }
