@@ -5,6 +5,7 @@ import FileFolderStructure from "/src/components/FileFolderStructure/FileFolderS
 import SearchBar from "/src/components/SearchBar/SearchBar";
 import Pagination from "./components/Pagination/Pagination";
 import TabForm from "./components/TabForm/TabForm";
+import NestedCheckBoxes from "./components/NestedCheckBoxes/NestedCheckBoxes";
 
 function App() {
   // const progressBars = [10, 50, 100];
@@ -17,7 +18,8 @@ function App() {
       {/* <FileFolderStructure /> */}
       {/* <SearchBar /> */}
       {/* <Pagination /> */}
-      <TabForm />
+      {/* <TabForm /> */}
+      <NestedCheckBoxes />
     </div>
   );
 }
