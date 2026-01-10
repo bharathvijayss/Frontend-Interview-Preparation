@@ -1,0 +1,21 @@
+.tabs_container {
+  display: flex;
+}
+
+.tab_block {
+  border: 1px solid gray;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.tabs_content_container {
+  border: 1px solid gray;
+  padding: 8px;
+}
+
+.tabs_action_buttons {
+  display: flex;
+  justify-content: end;
+  gap: 4px;
+  margin-top: 4px;
+}
