@@ -6,6 +6,7 @@ import SearchBar from "/src/components/SearchBar/SearchBar";
 import Pagination from "./components/Pagination/Pagination";
 import TabForm from "./components/TabForm/TabForm";
 import NestedCheckBoxes from "./components/NestedCheckBoxes/NestedCheckBoxes";
+import Chips from "./components/Chips/Chips";
 
 function App() {
   // const progressBars = [10, 50, 100];
@@ -19,7 +20,8 @@ function App() {
       {/* <SearchBar /> */}
       {/* <Pagination /> */}
       {/* <TabForm /> */}
-      <NestedCheckBoxes />
+      {/* <NestedCheckBoxes /> */}
+      <Chips />
     </div>
   );
 }

@@ -1,0 +1,28 @@
+.chip_item {
+  border-radius: 4px;
+  padding: 4px;
+  background-color: gainsboro;
+}
+
+.chip_list_container {
+  display: flex;
+  gap: 4px;
+  margin-top: 4px;
+}
+
+.remove_btn {
+  padding: 4px;
+  cursor: pointer;
+}
+
+.chip_input_box {
+  padding: 4px;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.chip_container {
+  width: 80%;
+  margin: auto;
+  display: block;
+}
