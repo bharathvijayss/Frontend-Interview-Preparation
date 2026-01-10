@@ -8,6 +8,7 @@ import TabForm from "./components/TabForm/TabForm";
 import NestedCheckBoxes from "./components/NestedCheckBoxes/NestedCheckBoxes";
 import Chips from "./components/Chips/Chips";
 import TodoList from "./components/TodoList/TodoList";
+import Accordion from "./components/Accordion/Accordion";
 
 function App() {
   // const progressBars = [10, 50, 100];
@@ -23,7 +24,8 @@ function App() {
       {/* <TabForm /> */}
       {/* <NestedCheckBoxes /> */}
       {/* <Chips /> */}
-      <TodoList />
+      {/* <TodoList /> */}
+      <Accordion />
     </div>
   );
 }
