@@ -7,6 +7,7 @@ import Pagination from "./components/Pagination/Pagination";
 import TabForm from "./components/TabForm/TabForm";
 import NestedCheckBoxes from "./components/NestedCheckBoxes/NestedCheckBoxes";
 import Chips from "./components/Chips/Chips";
+import TodoList from "./components/TodoList/TodoList";
 
 function App() {
   // const progressBars = [10, 50, 100];
@@ -21,7 +22,8 @@ function App() {
       {/* <Pagination /> */}
       {/* <TabForm /> */}
       {/* <NestedCheckBoxes /> */}
-      <Chips />
+      {/* <Chips /> */}
+      <TodoList />
     </div>
   );
 }
