@@ -11,13 +11,13 @@ import TodoList from "./components/TodoList/TodoList";
 import Accordion from "./components/Accordion/Accordion";
 
 function App() {
-  // const progressBars = [10, 50, 100];
+  const progressBars = [10, 50, 100];
   return (
     <div className={main_container}>
       {/* <Otp /> */}
-      {/* {progressBars.map((progress) => (
+      {progressBars.map((progress) => (
         <ProgressBar progress={progress} key={progress} />
-      ))} */}
+      ))}
       {/* <FileFolderStructure /> */}
       {/* <SearchBar /> */}
       {/* <Pagination /> */}
@@ -25,7 +25,7 @@ function App() {
       {/* <NestedCheckBoxes /> */}
       {/* <Chips /> */}
       {/* <TodoList /> */}
-      <Accordion />
+      {/* <Accordion /> */}
     </div>
   );
 }

@@ -3,7 +3,7 @@ import {
   file_folder_container,
   file_folder,
   icon,
-  util_icons
+  util_icons,
 } from "./FileFolderList.module.css";
 
 const FileFolderList = ({ nodeList, addFolder, addFile, deleteNode }) => {
@@ -19,11 +19,11 @@ const FileFolderList = ({ nodeList, addFolder, addFile, deleteNode }) => {
               onClick={() =>
                 setIsExpanded((prev) => ({
                   ...prev,
-                  [node.name]: !prev[node.name],
+                  [node.id]: !prev[node.id],
                 }))
               }
             >
-              {node.isFolder && (isExpanded[node.name] ? "🔻" : "🔺")}
+              {node.isFolder && (isExpanded[node.id] ? "🔻" : "🔺")}
             </span>
             <span>
               {node.isFolder ? "📁" : "🗒️"} {node.name}
@@ -44,9 +44,9 @@ const FileFolderList = ({ nodeList, addFolder, addFile, deleteNode }) => {
               ❌
             </span>
           </p>
-          {isExpanded[node.name] && node.isFolder && (
+          {isExpanded[node.id] && node.isFolder && (
             <FileFolderList
-              nodeList={node.children}
+              nodeList={node.children || []}
               addFolder={addFolder}
               addFile={addFile}
               deleteNode={deleteNode}

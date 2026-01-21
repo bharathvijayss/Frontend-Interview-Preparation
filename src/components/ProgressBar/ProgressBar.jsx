@@ -25,7 +25,6 @@ const ProgressBar = ({ progress }) => {
         <div
           className={inner_container}
           style={{
-            color: progress > 2 ? 'white' : 'black',
             transform: `translateX(${animatedProgress - 100}%)`,
           }}
         ></div>
